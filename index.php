@@ -41,40 +41,5 @@ if (isset($_POST['name'])) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcom to Travel Form</title>
-</head>
-<link rel="stylesheet" href="style.css">
 
-<body>
-    <div class="container">
-        <h1>Welcome to GMIT US Trip Form</h1>
-        <p>Enter Your details and submit your form to confirm your participation in trip</p>
-        
-        
-        <?php
-            if($insert==true){
-               echo" <p class='submitMsg'>Thanks For Submitting Your Form.We are happy to see you joining us for the us trip  </p>";
-            }
-        
-        ?>
-        <form action="index.php" method="post">
-            <input type="text" name="name" id="name" placeholder="Enter Your Name">
-            <input type="text" name="age" id="age" placeholder="Enter Your age">
-            <input type="text" name="gender" id="gender" placeholder="Enter Your gender">
-            <input type="email" name="email" placeholder="enter your email">
-            <input type="phone" name="phone" placeholder="enter your phone no">
-            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
-            <button class="btn">submit</button>
-            
-        </form>
-    </div>
-    <script src="index.php"></script>
-
-</body>
-        </html>
 
