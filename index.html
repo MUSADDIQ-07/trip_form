@@ -13,12 +13,11 @@
         <p>Enter Your details and submit your form to confirm your participation in trip</p>
         
         
-        <?php
-        if($insert==true){
-            echo"<pclass='submitMsg'><?php echo "Thanks For Submitting Your Form.We are happy to see you joining us for the us trip" ?> </p>";
-        }
         
-        ?>
+            if($insert==true){
+                <p class='submitMsg'>Thanks For Submitting Your Form.We are happy to see you joining us for the us trip </p>;
+            }
+        
 
         <form action="index.php" method="post">
             <input type="text" name="name" id="name" placeholder="Enter Your Name">
