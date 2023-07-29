@@ -43,5 +43,3 @@ if (isset($_POST['name'])) {
 
 
 
-</body>
-</html>
